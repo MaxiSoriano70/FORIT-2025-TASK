@@ -1,0 +1,39 @@
+:root {
+    --color-1: #1c7373;
+    --color-2: #005757;
+    --color-3: #223d58;
+    --color-4: #3e6389;
+    --color-5 : #ce1d49;
+    --color-6 : #b81941;
+    --color-fondo: #f1fcfa;
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-blanco: #fff;
+    --color-negro: #000;
+    --color-gris: #3d3d3d;
+}
+
+.headerAgenda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--color-2);
+    color: var(--color-blanco);
+    padding: 15px 10px;
+}
+
+.logoHeader{
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.bienvenida{
+    margin: 0;
+}
