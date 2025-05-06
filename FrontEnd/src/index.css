@@ -104,6 +104,24 @@ body{
   box-shadow: 0 0 0 0.2rem var(--color-1) !important;
 }
 
+.inputSuccess {
+  border: 1.8px solid #198754 !important;
+}
+
+.inputSuccess:focus {
+  border: 2px solid #198754 !important;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25) !important;
+}
+
+.inputDanger {
+  border: 1.8px solid #dc3545 !important;
+}
+
+.inputDanger:focus {
+  border: 2px solid #dc3545 !important;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+}
+
 .modoLight{
   background-color: var(--color-fondo);
   color: var(--color-negro);

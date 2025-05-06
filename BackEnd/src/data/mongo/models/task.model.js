@@ -7,7 +7,7 @@ const schema = new Schema({
         type: String,
         required: true,
         minlength: 3,
-        match: /^[\w\s]{3,}$/
+        match: /^[A-Za-zÁÉÍÓÚáéíóúÑñ0-9\s]{3,}$/
     },
     descripcion: {
         type: String,
